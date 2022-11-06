@@ -1,0 +1,63 @@
+.btn-3d{
+    height: 10.625rem;
+    width: 25rem;
+    border-radius: 1.25rem;
+    background-color: #3d7fcb;
+    color: white;
+    font-size: 2.3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0 0.438rem 0 #2e6099;
+}
+
+.btn-3d:active{
+    box-shadow: none;
+    transform: translateY(6px);
+}
+
+.vicerrectoria{
+    height: 10.625rem;
+    width: 25rem;
+    border-radius: 1.25rem;
+    background-color: #d1bc28;
+    color: white;
+    font-size: 2.3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0 0.438rem 0 #93851D;
+}
+
+.vicerrectoria:active{
+    box-shadow: none;
+    transform: translateY(6px);
+}
+
+@media (max-width: 1000px){
+    .btn-3d{
+        height: 7.625rem;
+        width: 15rem;
+        font-size: 1.3rem;
+    }
+    .vicerrectoria{
+        height: 7.625rem;
+        width: 15rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 614px){
+    .btn-3d{
+        height: 4.625rem;
+        width: 8rem;
+        font-size: 1rem;
+    }
+    .vicerrectoria{
+        height: 4.625rem;
+        width: 8rem;
+        font-size: 1rem;
+    }
+}
