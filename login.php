@@ -1,3 +1,12 @@
+<?php
+    
+    if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +15,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="./css/styleLogin.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Login landing page</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Iniciar sesión</title>
 </head>
 <body>
+    
+    <?php
+        if(isset($_SESSION['incorrectos'])){
+    ?>
+            <script type="text/javascript">
+                Swal.fire({
+                icon: 'error',
+                title: 'ERROR',
+                text: 'Los datos proporcionados son incorrectos',
+                })
+            </script>
+    <?php
+            unset($_SESSION['incorrectos']);
+        }
+    ?>
+
     <section class="side">
         <img src="./assets/UAS_logo.png" alt="">
     </section>
