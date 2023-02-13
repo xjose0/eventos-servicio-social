@@ -4,5 +4,4 @@ DISEÑO Y DESARROLLO DE UN SISTEMA WEB PARA LA ADMINISTRACIÓN DE ACTIVIDADES EN
 CUERPO ACADÉMICO TENDENCIAS E INNOVACIÓN TECNOLÓGICA EN LA ROBÓTICA Y LA EDUCACIÓN (UAS-CA-291)
 
 Brigadistas:
-Placencia Lizarraga Jose Angel
-Meza Ruiz Rosalba Carolina
+Placencia Lizarraga Jose Angel\nMeza Ruiz Rosalba Carolina
